@@ -8,8 +8,11 @@ variable "instance_type" {
   default     = "t2.micro"
 }
 
-variable "instance_name" {
-  description = "EC2 instance name"
-  default     = "Provisioned by Terraform"
+variable "email" {
+  description = "This is an email tag for easily recognition"  
 }
 
+variable "name" {
+  description = "this is an prefix name for the aws resources"
+  
+}
